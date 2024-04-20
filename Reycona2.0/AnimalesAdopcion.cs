@@ -24,11 +24,7 @@ namespace Reycona2._0
             this.Hide();
         }
 
-        private void btnAdopcion_Click(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void btnReycona_Click(object sender, EventArgs e)
         {
             Principal principal = new Principal();

@@ -17,9 +17,12 @@ namespace Reycona2._0
             InitializeComponent();
         }
 
-        private void gbxAnimal_Enter(object sender, EventArgs e)
+      
+        private void btnReycona_Click(object sender, EventArgs e)
         {
-
+            IndexLogeado indexLogeado = new IndexLogeado();
+            indexLogeado.Show();
+            this.Hide();
         }
     }
 }

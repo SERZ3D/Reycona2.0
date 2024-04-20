@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Reycona2._0
 {
-    public partial class Proveedores : Form
+    public partial class AgregarProveedor : Form
     {
-        public Proveedores()
+        public AgregarProveedor()
         {
             InitializeComponent();
         }
@@ -26,14 +26,15 @@ namespace Reycona2._0
 
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
-            Empleados empleados = new Empleados();  
+            Empleados empleados = new Empleados();
             empleados.Show();
             this.Hide();
+
         }
 
         private void btnVoluntarios_Click(object sender, EventArgs e)
         {
-            Voluntarios voluntarios = new Voluntarios();
+            Voluntarios voluntarios = new Voluntarios();    
             voluntarios.Show();
             this.Hide();
         }
@@ -47,15 +48,15 @@ namespace Reycona2._0
 
         private void btnDenuncias_Click(object sender, EventArgs e)
         {
-            Denuncias denuncias = new Denuncias();  
+            Denuncias denuncias = new Denuncias();
             denuncias.Show();
             this.Hide();
         }
 
         private void btnAdopcion_Click(object sender, EventArgs e)
         {
-           GestionAdopciones gestionAdopciones = new GestionAdopciones();
-            gestionAdopciones.Show();
+            AnimalesAdopcion animalesAdopcion = new AnimalesAdopcion();
+            animalesAdopcion.Show();
             this.Hide();
         }
 
@@ -64,13 +65,19 @@ namespace Reycona2._0
             VeterinarioLogueado veterinarioLogueado = new VeterinarioLogueado();
             veterinarioLogueado.Show();
             this.Hide();
-
         }
 
-        private void btnAgregarVeterinaria_Click(object sender, EventArgs e)
+        private void btnProveedores_Click(object sender, EventArgs e)
         {
-            AgregarProveedor agregarProveedor = new AgregarProveedor();
-            agregarProveedor.Show();
+            Proveedores proveedores = new Proveedores();
+            proveedores.Show();
+            this.Hide();
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Principal principal = new Principal();
+            principal.Show();
             this.Hide();
         }
     }

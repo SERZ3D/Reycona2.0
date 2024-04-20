@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Reycona2._0</RootNamespace>
     <AssemblyName>Reycona2.0</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -63,6 +64,12 @@
     </Compile>
     <Compile Include="AgregarPropietario.Designer.cs">
       <DependentUpon>AgregarPropietario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarProveedor.Designer.cs">
+      <DependentUpon>AgregarProveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="AgregarVeterinaria.cs">
       <SubType>Form</SubType>
@@ -171,6 +178,9 @@
     <EmbeddedResource Include="AgregarPropietario.resx">
       <DependentUpon>AgregarPropietario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AgregarProveedor.resx">
+      <DependentUpon>AgregarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AgregarVeterinaria.resx">
       <DependentUpon>AgregarVeterinaria.cs</DependentUpon>
     </EmbeddedResource>
@@ -209,6 +219,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="PropietariosAnimal.resx">
       <DependentUpon>PropietariosAnimal.cs</DependentUpon>
@@ -228,6 +239,7 @@
     <EmbeddedResource Include="Voluntarios.resx">
       <DependentUpon>Voluntarios.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

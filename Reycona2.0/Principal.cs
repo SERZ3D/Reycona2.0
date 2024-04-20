@@ -38,6 +38,6 @@ namespace Reycona2._0
             this.Hide();
         }
 
-        
+      
     }
 }

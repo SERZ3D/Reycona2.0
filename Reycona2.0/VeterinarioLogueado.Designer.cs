@@ -213,6 +213,7 @@
             this.btnReycona.TabIndex = 0;
             this.btnReycona.Text = "REYCONA";
             this.btnReycona.UseVisualStyleBackColor = true;
+            this.btnReycona.Click += new System.EventHandler(this.btnReycona_Click);
             // 
             // groupBox1
             // 
@@ -319,7 +320,7 @@
             this.gbxAnimal.Size = new System.Drawing.Size(994, 250);
             this.gbxAnimal.TabIndex = 28;
             this.gbxAnimal.TabStop = false;
-            this.gbxAnimal.Enter += new System.EventHandler(this.gbxAnimal_Enter);
+          
             // 
             // btnModificar
             // 

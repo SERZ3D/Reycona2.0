@@ -36,23 +36,25 @@
             this.btnReycona = new System.Windows.Forms.Button();
             this.lblHorizontal = new System.Windows.Forms.Label();
             this.gbxSolicitudAdopcion = new System.Windows.Forms.GroupBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.dtpSolicitudAdopcion = new System.Windows.Forms.DateTimePicker();
+            this.dtpNacimientoAdopcion = new System.Windows.Forms.DateTimePicker();
+            this.cbxMunicipioAdopcion = new System.Windows.Forms.ComboBox();
+            this.cbxGeneroAdopcion = new System.Windows.Forms.ComboBox();
+            this.cbxDepartamentoAdopcion = new System.Windows.Forms.ComboBox();
+            this.tbxColoniaAdopcion = new System.Windows.Forms.TextBox();
+            this.tbxSectorAdopcion = new System.Windows.Forms.TextBox();
+            this.tbxIdAnimalAdopcion = new System.Windows.Forms.TextBox();
+            this.tbxNombre1Adopcion = new System.Windows.Forms.TextBox();
+            this.tbxNombre2Adopcion = new System.Windows.Forms.TextBox();
+            this.tbxApellido1Adopcion = new System.Windows.Forms.TextBox();
+            this.tbxApellido2Adopcion = new System.Windows.Forms.TextBox();
+            this.tbxTelefonoAdopcion = new System.Windows.Forms.TextBox();
+            this.tbxNoCasaAdopcion = new System.Windows.Forms.TextBox();
+            this.tbxBloqueAdopcion = new System.Windows.Forms.TextBox();
+            this.tbxProfesionAdopcion = new System.Windows.Forms.TextBox();
+            this.TbxCorreoAdopcion = new System.Windows.Forms.TextBox();
+            this.tbxDNIAdopcion = new System.Windows.Forms.TextBox();
+            this.btnAgregarSolicitudAdopcion = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -71,9 +73,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lbl1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.lblSolicitudAdopcion = new System.Windows.Forms.Label();
             this.gbxEncabezado1.SuspendLayout();
             this.gbxSolicitudAdopcion.SuspendLayout();
             this.SuspendLayout();
@@ -161,25 +161,25 @@
             // gbxSolicitudAdopcion
             // 
             this.gbxSolicitudAdopcion.BackColor = System.Drawing.Color.Gainsboro;
-            this.gbxSolicitudAdopcion.Controls.Add(this.dateTimePicker2);
-            this.gbxSolicitudAdopcion.Controls.Add(this.dateTimePicker1);
-            this.gbxSolicitudAdopcion.Controls.Add(this.comboBox3);
-            this.gbxSolicitudAdopcion.Controls.Add(this.comboBox2);
-            this.gbxSolicitudAdopcion.Controls.Add(this.comboBox1);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox14);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox13);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox12);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox11);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox10);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox9);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox8);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox7);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox5);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox4);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox3);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox2);
-            this.gbxSolicitudAdopcion.Controls.Add(this.textBox1);
-            this.gbxSolicitudAdopcion.Controls.Add(this.button1);
+            this.gbxSolicitudAdopcion.Controls.Add(this.dtpSolicitudAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.dtpNacimientoAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.cbxMunicipioAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.cbxGeneroAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.cbxDepartamentoAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxColoniaAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxSectorAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxIdAnimalAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxNombre1Adopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxNombre2Adopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxApellido1Adopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxApellido2Adopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxTelefonoAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxNoCasaAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxBloqueAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxProfesionAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.TbxCorreoAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.tbxDNIAdopcion);
+            this.gbxSolicitudAdopcion.Controls.Add(this.btnAgregarSolicitudAdopcion);
             this.gbxSolicitudAdopcion.Controls.Add(this.label18);
             this.gbxSolicitudAdopcion.Controls.Add(this.label17);
             this.gbxSolicitudAdopcion.Controls.Add(this.label16);
@@ -198,37 +198,51 @@
             this.gbxSolicitudAdopcion.Controls.Add(this.label3);
             this.gbxSolicitudAdopcion.Controls.Add(this.label2);
             this.gbxSolicitudAdopcion.Controls.Add(this.label1);
-            this.gbxSolicitudAdopcion.Controls.Add(this.lbl1);
+            this.gbxSolicitudAdopcion.Controls.Add(this.lblSolicitudAdopcion);
             this.gbxSolicitudAdopcion.Location = new System.Drawing.Point(74, 104);
             this.gbxSolicitudAdopcion.Name = "gbxSolicitudAdopcion";
             this.gbxSolicitudAdopcion.Size = new System.Drawing.Size(1130, 640);
             this.gbxSolicitudAdopcion.TabIndex = 3;
             this.gbxSolicitudAdopcion.TabStop = false;
             // 
-            // comboBox3
+            // dtpSolicitudAdopcion
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(845, 187);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
-            this.comboBox3.TabIndex = 36;
+            this.dtpSolicitudAdopcion.Location = new System.Drawing.Point(498, 440);
+            this.dtpSolicitudAdopcion.Name = "dtpSolicitudAdopcion";
+            this.dtpSolicitudAdopcion.Size = new System.Drawing.Size(200, 20);
+            this.dtpSolicitudAdopcion.TabIndex = 38;
             // 
-            // comboBox2
+            // dtpNacimientoAdopcion
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.dtpNacimientoAdopcion.Location = new System.Drawing.Point(151, 440);
+            this.dtpNacimientoAdopcion.Name = "dtpNacimientoAdopcion";
+            this.dtpNacimientoAdopcion.Size = new System.Drawing.Size(200, 20);
+            this.dtpNacimientoAdopcion.TabIndex = 37;
+            // 
+            // cbxMunicipioAdopcion
+            // 
+            this.cbxMunicipioAdopcion.FormattingEnabled = true;
+            this.cbxMunicipioAdopcion.Location = new System.Drawing.Point(845, 187);
+            this.cbxMunicipioAdopcion.Name = "cbxMunicipioAdopcion";
+            this.cbxMunicipioAdopcion.Size = new System.Drawing.Size(121, 21);
+            this.cbxMunicipioAdopcion.TabIndex = 36;
+            // 
+            // cbxGeneroAdopcion
+            // 
+            this.cbxGeneroAdopcion.FormattingEnabled = true;
+            this.cbxGeneroAdopcion.Items.AddRange(new object[] {
             "Masculino",
             "Femenino",
             ":D"});
-            this.comboBox2.Location = new System.Drawing.Point(498, 523);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 35;
+            this.cbxGeneroAdopcion.Location = new System.Drawing.Point(498, 523);
+            this.cbxGeneroAdopcion.Name = "cbxGeneroAdopcion";
+            this.cbxGeneroAdopcion.Size = new System.Drawing.Size(121, 21);
+            this.cbxGeneroAdopcion.TabIndex = 35;
             // 
-            // comboBox1
+            // cbxDepartamentoAdopcion
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbxDepartamentoAdopcion.FormattingEnabled = true;
+            this.cbxDepartamentoAdopcion.Items.AddRange(new object[] {
             "Atlántida",
             "Choluteca",
             "Colón",
@@ -247,115 +261,116 @@
             "Santa Bárbara",
             "Valle",
             "Yoro"});
-            this.comboBox1.Location = new System.Drawing.Point(845, 104);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 34;
+            this.cbxDepartamentoAdopcion.Location = new System.Drawing.Point(845, 104);
+            this.cbxDepartamentoAdopcion.Name = "cbxDepartamentoAdopcion";
+            this.cbxDepartamentoAdopcion.Size = new System.Drawing.Size(121, 21);
+            this.cbxDepartamentoAdopcion.TabIndex = 34;
             // 
-            // textBox14
+            // tbxColoniaAdopcion
             // 
-            this.textBox14.Location = new System.Drawing.Point(845, 272);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 20);
-            this.textBox14.TabIndex = 33;
+            this.tbxColoniaAdopcion.Location = new System.Drawing.Point(845, 272);
+            this.tbxColoniaAdopcion.Name = "tbxColoniaAdopcion";
+            this.tbxColoniaAdopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxColoniaAdopcion.TabIndex = 33;
             // 
-            // textBox13
+            // tbxSectorAdopcion
             // 
-            this.textBox13.Location = new System.Drawing.Point(845, 356);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 20);
-            this.textBox13.TabIndex = 32;
+            this.tbxSectorAdopcion.Location = new System.Drawing.Point(845, 356);
+            this.tbxSectorAdopcion.Name = "tbxSectorAdopcion";
+            this.tbxSectorAdopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxSectorAdopcion.TabIndex = 32;
             // 
-            // textBox12
+            // tbxIdAnimalAdopcion
             // 
-            this.textBox12.Location = new System.Drawing.Point(498, 105);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 20);
-            this.textBox12.TabIndex = 31;
+            this.tbxIdAnimalAdopcion.Location = new System.Drawing.Point(498, 105);
+            this.tbxIdAnimalAdopcion.Name = "tbxIdAnimalAdopcion";
+            this.tbxIdAnimalAdopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxIdAnimalAdopcion.TabIndex = 31;
             // 
-            // textBox11
+            // tbxNombre1Adopcion
             // 
-            this.textBox11.Location = new System.Drawing.Point(151, 188);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 30;
+            this.tbxNombre1Adopcion.Location = new System.Drawing.Point(151, 188);
+            this.tbxNombre1Adopcion.Name = "tbxNombre1Adopcion";
+            this.tbxNombre1Adopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxNombre1Adopcion.TabIndex = 30;
             // 
-            // textBox10
+            // tbxNombre2Adopcion
             // 
-            this.textBox10.Location = new System.Drawing.Point(498, 188);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 29;
+            this.tbxNombre2Adopcion.Location = new System.Drawing.Point(498, 188);
+            this.tbxNombre2Adopcion.Name = "tbxNombre2Adopcion";
+            this.tbxNombre2Adopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxNombre2Adopcion.TabIndex = 29;
             // 
-            // textBox9
+            // tbxApellido1Adopcion
             // 
-            this.textBox9.Location = new System.Drawing.Point(151, 272);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 28;
+            this.tbxApellido1Adopcion.Location = new System.Drawing.Point(151, 272);
+            this.tbxApellido1Adopcion.Name = "tbxApellido1Adopcion";
+            this.tbxApellido1Adopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxApellido1Adopcion.TabIndex = 28;
             // 
-            // textBox8
+            // tbxApellido2Adopcion
             // 
-            this.textBox8.Location = new System.Drawing.Point(498, 272);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 27;
+            this.tbxApellido2Adopcion.Location = new System.Drawing.Point(498, 272);
+            this.tbxApellido2Adopcion.Name = "tbxApellido2Adopcion";
+            this.tbxApellido2Adopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxApellido2Adopcion.TabIndex = 27;
             // 
-            // textBox7
+            // tbxTelefonoAdopcion
             // 
-            this.textBox7.Location = new System.Drawing.Point(151, 356);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 26;
+            this.tbxTelefonoAdopcion.Location = new System.Drawing.Point(151, 356);
+            this.tbxTelefonoAdopcion.Name = "tbxTelefonoAdopcion";
+            this.tbxTelefonoAdopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxTelefonoAdopcion.TabIndex = 26;
             // 
-            // textBox5
+            // tbxNoCasaAdopcion
             // 
-            this.textBox5.Location = new System.Drawing.Point(845, 523);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 24;
+            this.tbxNoCasaAdopcion.Location = new System.Drawing.Point(845, 523);
+            this.tbxNoCasaAdopcion.Name = "tbxNoCasaAdopcion";
+            this.tbxNoCasaAdopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxNoCasaAdopcion.TabIndex = 24;
             // 
-            // textBox4
+            // tbxBloqueAdopcion
             // 
-            this.textBox4.Location = new System.Drawing.Point(845, 440);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 23;
+            this.tbxBloqueAdopcion.Location = new System.Drawing.Point(845, 440);
+            this.tbxBloqueAdopcion.Name = "tbxBloqueAdopcion";
+            this.tbxBloqueAdopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxBloqueAdopcion.TabIndex = 23;
             // 
-            // textBox3
+            // tbxProfesionAdopcion
             // 
-            this.textBox3.Location = new System.Drawing.Point(151, 524);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 22;
+            this.tbxProfesionAdopcion.Location = new System.Drawing.Point(151, 524);
+            this.tbxProfesionAdopcion.Name = "tbxProfesionAdopcion";
+            this.tbxProfesionAdopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxProfesionAdopcion.TabIndex = 22;
             // 
-            // textBox2
+            // TbxCorreoAdopcion
             // 
-            this.textBox2.Location = new System.Drawing.Point(498, 356);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 21;
+            this.TbxCorreoAdopcion.Location = new System.Drawing.Point(498, 356);
+            this.TbxCorreoAdopcion.Name = "TbxCorreoAdopcion";
+            this.TbxCorreoAdopcion.Size = new System.Drawing.Size(100, 20);
+            this.TbxCorreoAdopcion.TabIndex = 21;
             // 
-            // textBox1
+            // tbxDNIAdopcion
             // 
-            this.textBox1.Location = new System.Drawing.Point(151, 105);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 20;
+            this.tbxDNIAdopcion.Location = new System.Drawing.Point(151, 105);
+            this.tbxDNIAdopcion.Name = "tbxDNIAdopcion";
+            this.tbxDNIAdopcion.Size = new System.Drawing.Size(100, 20);
+            this.tbxDNIAdopcion.TabIndex = 20;
             // 
-            // button1
+            // btnAgregarSolicitudAdopcion
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(5, 580);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(1110, 40);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Enviar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAgregarSolicitudAdopcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAgregarSolicitudAdopcion.FlatAppearance.BorderSize = 0;
+            this.btnAgregarSolicitudAdopcion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarSolicitudAdopcion.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarSolicitudAdopcion.ForeColor = System.Drawing.Color.White;
+            this.btnAgregarSolicitudAdopcion.Location = new System.Drawing.Point(5, 580);
+            this.btnAgregarSolicitudAdopcion.Name = "btnAgregarSolicitudAdopcion";
+            this.btnAgregarSolicitudAdopcion.Size = new System.Drawing.Size(1110, 40);
+            this.btnAgregarSolicitudAdopcion.TabIndex = 19;
+            this.btnAgregarSolicitudAdopcion.Text = "Enviar";
+            this.btnAgregarSolicitudAdopcion.UseVisualStyleBackColor = false;
+            this.btnAgregarSolicitudAdopcion.Click += new System.EventHandler(this.btnAgregarSolicitudAdopcion_Click);
             // 
             // label18
             // 
@@ -537,30 +552,16 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Id del Animal:";
             // 
-            // lbl1
+            // lblSolicitudAdopcion
             // 
-            this.lbl1.AutoSize = true;
-            this.lbl1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbl1.Location = new System.Drawing.Point(440, 20);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(251, 28);
-            this.lbl1.TabIndex = 0;
-            this.lbl1.Text = "Solicitud de Adopcion";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(151, 440);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 37;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(498, 440);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 38;
+            this.lblSolicitudAdopcion.AutoSize = true;
+            this.lblSolicitudAdopcion.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSolicitudAdopcion.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblSolicitudAdopcion.Location = new System.Drawing.Point(440, 20);
+            this.lblSolicitudAdopcion.Name = "lblSolicitudAdopcion";
+            this.lblSolicitudAdopcion.Size = new System.Drawing.Size(251, 28);
+            this.lblSolicitudAdopcion.TabIndex = 0;
+            this.lblSolicitudAdopcion.Text = "Solicitud de Adopcion";
             // 
             // SolicitudAdopcion
             // 
@@ -609,25 +610,25 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label lblSolicitudAdopcion;
+        private System.Windows.Forms.Button btnAgregarSolicitudAdopcion;
+        private System.Windows.Forms.ComboBox cbxMunicipioAdopcion;
+        private System.Windows.Forms.ComboBox cbxGeneroAdopcion;
+        private System.Windows.Forms.ComboBox cbxDepartamentoAdopcion;
+        private System.Windows.Forms.TextBox tbxColoniaAdopcion;
+        private System.Windows.Forms.TextBox tbxSectorAdopcion;
+        private System.Windows.Forms.TextBox tbxIdAnimalAdopcion;
+        private System.Windows.Forms.TextBox tbxNombre1Adopcion;
+        private System.Windows.Forms.TextBox tbxNombre2Adopcion;
+        private System.Windows.Forms.TextBox tbxApellido1Adopcion;
+        private System.Windows.Forms.TextBox tbxApellido2Adopcion;
+        private System.Windows.Forms.TextBox tbxTelefonoAdopcion;
+        private System.Windows.Forms.TextBox tbxNoCasaAdopcion;
+        private System.Windows.Forms.TextBox tbxBloqueAdopcion;
+        private System.Windows.Forms.TextBox tbxProfesionAdopcion;
+        private System.Windows.Forms.TextBox TbxCorreoAdopcion;
+        private System.Windows.Forms.TextBox tbxDNIAdopcion;
+        private System.Windows.Forms.DateTimePicker dtpSolicitudAdopcion;
+        private System.Windows.Forms.DateTimePicker dtpNacimientoAdopcion;
     }
 }

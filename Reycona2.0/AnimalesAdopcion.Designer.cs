@@ -35,7 +35,7 @@
             this.btnAdopcion = new System.Windows.Forms.Button();
             this.btnReycona = new System.Windows.Forms.Button();
             this.lblHorizontal = new System.Windows.Forms.Label();
-            this.lblAnimales = new System.Windows.Forms.Label();
+            this.lblAnimalesAdopcion = new System.Windows.Forms.Label();
             this.lblHorizontal2 = new System.Windows.Forms.Label();
             this.gbxAnimal = new System.Windows.Forms.GroupBox();
             this.btnLlenarSolictud = new System.Windows.Forms.Button();
@@ -115,7 +115,7 @@
             this.btnAdopcion.TabIndex = 1;
             this.btnAdopcion.Text = "Adopcion";
             this.btnAdopcion.UseVisualStyleBackColor = true;
-            this.btnAdopcion.Click += new System.EventHandler(this.btnAdopcion_Click);
+           
             // 
             // btnReycona
             // 
@@ -142,17 +142,17 @@
             this.lblHorizontal.TabIndex = 2;
             this.lblHorizontal.Text = resources.GetString("lblHorizontal.Text");
             // 
-            // lblAnimales
+            // lblAnimalesAdopcion
             // 
-            this.lblAnimales.AutoSize = true;
-            this.lblAnimales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblAnimales.Font = new System.Drawing.Font("Cambria", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnimales.ForeColor = System.Drawing.Color.Black;
-            this.lblAnimales.Location = new System.Drawing.Point(52, 92);
-            this.lblAnimales.Name = "lblAnimales";
-            this.lblAnimales.Size = new System.Drawing.Size(425, 47);
-            this.lblAnimales.TabIndex = 3;
-            this.lblAnimales.Text = "Animales en adopcion\r\n";
+            this.lblAnimalesAdopcion.AutoSize = true;
+            this.lblAnimalesAdopcion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblAnimalesAdopcion.Font = new System.Drawing.Font("Cambria", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnimalesAdopcion.ForeColor = System.Drawing.Color.Black;
+            this.lblAnimalesAdopcion.Location = new System.Drawing.Point(52, 92);
+            this.lblAnimalesAdopcion.Name = "lblAnimalesAdopcion";
+            this.lblAnimalesAdopcion.Size = new System.Drawing.Size(425, 47);
+            this.lblAnimalesAdopcion.TabIndex = 3;
+            this.lblAnimalesAdopcion.Text = "Animales en adopcion\r\n";
             // 
             // lblHorizontal2
             // 
@@ -378,7 +378,7 @@
             this.Controls.Add(this.gbxAnimal2);
             this.Controls.Add(this.gbxAnimal);
             this.Controls.Add(this.lblHorizontal2);
-            this.Controls.Add(this.lblAnimales);
+            this.Controls.Add(this.lblAnimalesAdopcion);
             this.Controls.Add(this.lblHorizontal);
             this.Controls.Add(this.gbxEncabezado1);
             this.Name = "AnimalesAdopcion";
@@ -404,7 +404,7 @@
         private System.Windows.Forms.Button btnAdopcion;
         private System.Windows.Forms.Button btnReycona;
         private System.Windows.Forms.Label lblHorizontal;
-        private System.Windows.Forms.Label lblAnimales;
+        private System.Windows.Forms.Label lblAnimalesAdopcion;
         private System.Windows.Forms.Label lblHorizontal2;
         private System.Windows.Forms.GroupBox gbxAnimal;
         private System.Windows.Forms.Label lbl6;

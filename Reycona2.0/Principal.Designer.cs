@@ -117,7 +117,7 @@
             this.btnReycona.TabIndex = 0;
             this.btnReycona.Text = "REYCONA";
             this.btnReycona.UseVisualStyleBackColor = true;
-           
+ 
             // 
             // lblHorizontal
             // 
